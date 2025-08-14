@@ -1,0 +1,76 @@
+.Login-page{
+background-color: #12121c;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  min-height: 100vh;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.login-hero{
+    text-align: center;
+    font-size: 2rem;
+}
+.login-hero span{
+    color: #4ade80;
+}
+.login-hero p{
+    color:#bbb;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+/*login form*/
+
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:1;
+    flex-wrap: wrap;
+}
+.login-form h2{
+    color:#4ade80;
+    font-size: 1.8rem;
+}
+.login-form span{
+    color: #bbb;
+    margin: 1rem 0rem;
+    font-size: 1rem;
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form form label{
+    font-size: 1rem;
+    padding: 0.4rem 0;
+}
+.login-form form input{
+    width: 50vh;
+    border-radius: 6px;
+    padding: 0.6rem 0.4rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 0.2rem;
+}
+.login-form a{
+    text-decoration: none;
+    text-align: end;
+    color:#bbb;
+    padding: 1rem;
+}
+.login-form button{
+    width: fit-content;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: #4ade80;
+    background-color: transparent;
+    border:2px solid #4ade80;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
