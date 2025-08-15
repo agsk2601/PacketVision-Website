@@ -122,3 +122,16 @@
   position: relative;
   z-index: 1; 
 }
+
+.descrptions{
+  margin-top:9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:1.5rem;
+}
+.descrptions h2{
+  color:#4ade80;
+}

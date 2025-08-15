@@ -1,6 +1,7 @@
 import '../css/Navbar.css'
 import { IoIosSettings } from "react-icons/io";
 function Navbar (){
+ const username = localStorage.getItem("username");
  return <div className="nav">
             <div className="nav-left">
                 <ul>
@@ -12,7 +13,10 @@ function Navbar (){
             </div>
             <div className="nav-right">
                 <ul>
-                    <li><a href='/login'>login</a></li>
+                    {
+                        username ? (<li>Welcome, {username}</li>) : ( <li><a href='/login'>login</a></li>)
+                    }
+                   
                     <li><IoIosSettings /></li>
                 </ul>
             </div>

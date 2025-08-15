@@ -1,0 +1,9 @@
+.div-Footer{
+    background-color: #12121c;
+    color:#bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top:5rem;
+}
